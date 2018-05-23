@@ -179,7 +179,7 @@
   </security-constraint>
    <login-config>        
             <auth-method>BASIC</auth-method>            <!-- 关键-->        
-            <realm-name>你猜猜账号密码多少啊？</realm-name>     
+            <realm-name>SolrAuthorization</realm-name>     
    </login-config>  
   <security-constraint>
     <web-resource-collection>

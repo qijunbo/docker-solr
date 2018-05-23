@@ -8,7 +8,7 @@
       <Get name="securityHandler">      
            <Set name="loginService">      
                    <New class="org.eclipse.jetty.security.HashLoginService">      
-                           <Set name="name">你猜猜账号密码多少啊？</Set>  <!-- 一个名字-->    
+                           <Set name="name">SolrAuthorization</Set>  <!-- 一个名字-->    
     　　　　　　　　　　　　<!-- 引入刚刚新建的文件 -->    
                           <Set name="config"><SystemProperty name="jetty.home" default="."/>/etc/auth.properties</Set>      
                    </New>      
