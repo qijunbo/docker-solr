@@ -1,3 +1,7 @@
+# 含登录验证的版本
+
+./auth
+
 # Supported tags and respective `Dockerfile` links
 
 - [`7.3.1-slim`, `7.3-slim`, `7-slim`, `latest-slim` (*7.3/slim/Dockerfile*)](https://github.com/docker-solr/docker-solr/blob/48c50a7b2746470baa9b3e3573033e600dac75e9/7.3/slim/Dockerfile)
